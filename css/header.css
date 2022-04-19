@@ -1,0 +1,49 @@
+header{
+    background-color: #342934;
+}
+
+.navbar-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.collapse-btn{
+    width: 30px;
+}
+
+.collapse-btn img{
+    width: 100%;
+}
+
+.nav-menu-items{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75px;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #342934;
+}
+
+.nav-item{
+    margin: 10px 0;
+}
+
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.open{
+    display: block;
+}
+
