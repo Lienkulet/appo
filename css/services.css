@@ -1,0 +1,23 @@
+.services-item{
+    width: calc(100% - 60px);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 0 5px 5px #c8c8c8;
+    border-radius: 10px;
+}
+
+.services-item p {
+    color: #a5b0c7;
+    margin: 0%;
+}
+
+@media only screen and (min-width: 900px){
+    .services-items{
+        display: flex;
+    }
+
+    .services-item{
+        width: calc(25% - 60px);
+    }
+}
